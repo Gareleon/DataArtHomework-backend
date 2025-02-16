@@ -1,6 +1,7 @@
 import type { Request, Response } from "express";
 import { connectDB } from "./config/db";
 import { errorHandler } from "./middleware/errorHandler";
+import { Message } from "./public";
 const express = require("express");
 require("dotenv").config();
 
@@ -36,7 +37,7 @@ app.use("/api/joke", jokeRoutes);
 
 // Root route - Serve HTML
 app.get("/", (req: Request, res: Response) => {
-  res.sendFile("./public/index.html"); // Serve HTML file on homepage
+  res.send(Message); // Serve HTML on homepage
 });
 
 // Global Error Handling Middleware
