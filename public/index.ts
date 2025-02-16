@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+export const Message = `<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -32,10 +32,11 @@
       <h1>Jokes Vote Server</h1>
       <p>
         Made by
-        <a href="https://draganignjatovic.com" class="text-primary"
+        <a href="https://www.draganignjatovic.com" class="text-primary"
           >Dragan Ignjatovic</a
         >
       </p>
     </div>
   </body>
 </html>
+`;
