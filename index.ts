@@ -11,7 +11,10 @@ const cors = require("cors");
 const port = process.env.PORT || 5000;
 
 // CORS Middleware, whitelist origins
-const allowedOrigins = ["http://localhost:3000", "http://localhost:5000"];
+const allowedOrigins = [
+  "https://data-art-homework-frontend.vercel.app/",
+  "https://data-art-homework-backend.vercel.app/",
+];
 
 app.use(
   cors({
