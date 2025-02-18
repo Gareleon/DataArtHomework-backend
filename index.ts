@@ -11,7 +11,7 @@ const cors = require("cors");
 const port = process.env.PORT || 5000;
 
 // CORS Middleware, whitelist origins
-const allowedOrigins = ["http://localhost:5173", "http://localhost:5000"];
+const allowedOrigins = ["http://localhost:3000", "http://localhost:5000"];
 
 app.use(
   cors({
