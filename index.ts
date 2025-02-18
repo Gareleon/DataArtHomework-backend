@@ -12,8 +12,8 @@ const port = process.env.PORT || 5000;
 
 // CORS Middleware, whitelist origins
 const allowedOrigins = [
-  "https://data-art-homework-frontend.vercel.app/",
-  "https://data-art-homework-backend.vercel.app/",
+  "https://data-art-homework-frontend.vercel.app",
+  "https://data-art-homework-backend.vercel.app",
 ];
 
 app.use(
